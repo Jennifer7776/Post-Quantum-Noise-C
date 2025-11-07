@@ -1,0 +1,13 @@
+../crypto/donna/poly1305-donna.o: ../crypto/donna/poly1305-donna.c \
+  ../crypto/donna/poly1305-donna.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
+  ../crypto/donna/poly1305-donna-64.h
+
+../crypto/donna/poly1305-donna.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h:
+
+../crypto/donna/poly1305-donna-64.h:

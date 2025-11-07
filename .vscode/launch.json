@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/user/Desktop/PQ_Noise2.0/noise_c/test",
+      "program": "/Users/user/Desktop/PQ_Noise2.0/noise_c/test/build/Debug/outDebug"
+    }
+  ]
+}

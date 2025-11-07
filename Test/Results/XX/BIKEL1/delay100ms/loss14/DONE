@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-11T09:45:47.877352",
+  "pattern": "XX",
+  "kem": "BIKEL1",
+  "loss": 14,
+  "delay": 100,
+  "iters": 1000,
+  "warmup": 20,
+  "exe": {
+    "server": "./Noise_c/server_pq",
+    "client": "./Noise_c/client_pq"
+  },
+  "namespaces": {
+    "cli": "cli_ns",
+    "srv": "srv_ns"
+  },
+  "ifaces": {
+    "cli": "cli_ve",
+    "srv": "srv_ve"
+  },
+  "server_ip": "10.0.0.1"
+}

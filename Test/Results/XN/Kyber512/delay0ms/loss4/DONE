@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-11T03:31:21.183745",
+  "pattern": "XN",
+  "kem": "Kyber512",
+  "loss": 4,
+  "delay": 0,
+  "iters": 1000,
+  "warmup": 20,
+  "exe": {
+    "server": "./Noise_c/server_pq",
+    "client": "./Noise_c/client_pq"
+  },
+  "namespaces": {
+    "cli": "cli_ns",
+    "srv": "srv_ns"
+  },
+  "ifaces": {
+    "cli": "cli_ve",
+    "srv": "srv_ve"
+  },
+  "server_ip": "10.0.0.1"
+}
